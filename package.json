@@ -1,0 +1,71 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@onesignal/onesignal-vue3": "^1.0.2",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.3",
+    "@vuepic/vue-datepicker": "^7.2.0",
+    "apexcharts": "^3.41.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
+    "chart.js": "^4.3.1",
+    "core-js": "^3.8.3",
+    "firebase": "^8.3.2",
+    "gitart-vue-dialog": "^3.1.0",
+    "js-cookie": "^3.0.5",
+    "lodash": "^4.17.21",
+    "material-design-icons-iconfont": "^6.7.0",
+    "pinia": "^2.1.4",
+    "print-js": "^1.6.0",
+    "roboto-fontface": "*",
+    "router": "^1.3.8",
+    "vee-validate": "^4.10.3",
+    "vue": "^3.2.13",
+    "vue-chartjs": "^5.2.0",
+    "vue-router": "^4.0.3",
+    "vue3-apexcharts": "^1.4.4",
+    "vuetify": "^3.3.5",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@mdi/font": "^7.2.96",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "webpack-plugin-vuetify": "^2.0.0-alpha.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
